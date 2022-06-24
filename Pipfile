@@ -1,0 +1,28 @@
+[requires]
+python_version = "3.8"
+
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+############################## PACKAGES ##########################
+[packages]
+sagemaker = "*"
+
+[dev-packages]
+#
+# Jupyter
+#
+jupyter = "*"
+jupyter-nbextensions-configurator = "*"
+jupyter-tabnine = "*"
+watermark = "*"
+autopep8 = "*"
+nbdime = "*"
+
+#
+# Plotting
+#
+matplotlib = ">=3.3.4,<3.4.0"
+seaborn = ">=0.11.1,<0.12.0"
